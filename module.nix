@@ -34,7 +34,6 @@
     git-absorb
     gnumake
     iperf3
-    tmuxp
     unzip
     watchman
     wget
