@@ -1,5 +1,11 @@
 { config, pkgs, settings, ... }: {
-  programs.jujutsu.enable = true;
+  programs.jujutsu = {
+    enable = true;
+    settings.user = {
+      name = "Richard Bishop";
+      email = "richard@rubiquity.com";
+    };
+  };
 
   programs.git = {
     enable = true;
