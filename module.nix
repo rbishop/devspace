@@ -21,7 +21,11 @@
     # LSPs
     gopls
     ruby-lsp
-    zls
+    #zls 2026-02-08 broken
+
+    # LLMs/Agents
+    aider-chat
+    claude-code
 
     # Terminals
     alacritty
