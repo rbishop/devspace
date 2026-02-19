@@ -25,7 +25,6 @@ cmp.setup {
 require ('oil').setup({})
 
 -- load language specific LSP/formatters
-require("crystal")
 require("go")
 require("ruby")
 require("zig")

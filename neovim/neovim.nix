@@ -5,8 +5,8 @@
     vimAlias = true;
     withRuby = true;
     withPython3 = true;
-    extraLuaConfig = pkgs.lib.fileContents ./init.lua;
-    extraPackages = with pkgs; [ crystalline ];
+    initLua = pkgs.lib.fileContents ./init.lua;
+    extraPackages = with pkgs; [];
     plugins = with pkgs.vimPlugins; [
       nvim-lspconfig Rename vim-endwise vim-surround nvim-fzf nvim-fzf-commands
       nvim-treesitter oil-nvim vim-wayland-clipboard open-browser-vim # supertab broken for now
@@ -17,9 +17,6 @@
     ];
   };
   
-  home.file.".config/nvim/lua/crystal.lua" = {
-    source = ./langs/crystal.lua;
-  };
   home.file.".config/nvim/lua/go.lua" = {
     source = ./langs/go.lua;
   };
