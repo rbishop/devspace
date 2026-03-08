@@ -34,7 +34,6 @@
     # Misc
     ctags
     delta
-    ffmpeg
     git-absorb
     gnumake
     iperf3
