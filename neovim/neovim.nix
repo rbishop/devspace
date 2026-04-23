@@ -12,7 +12,7 @@
       nvim-treesitter oil-nvim vim-wayland-clipboard open-browser-vim # supertab broken for now
       open-browser-github-vim nerdtree plenary-nvim fzf-lsp-nvim
       lsp-zero-nvim none-ls-nvim nvim-cmp cmp-nvim-lsp conform-nvim
-      gruvbox-nvim everforest papercolor-theme claudecode-nvim
+      gruvbox-nvim everforest papercolor-theme
       (nvim-treesitter.withPlugins (p: [ p.zig p.swift p.ruby p.yaml p.go p.lua p.vim p.c p.nix ]))
     ];
   };

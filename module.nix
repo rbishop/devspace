@@ -23,9 +23,6 @@
     ruby-lsp
     #zls 2026-02-08 broken
 
-    # LLMs/Agents
-    claude-code
-
     # Terminals
     alacritty
     ghostty
