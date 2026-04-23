@@ -1,11 +1,5 @@
-{ config, pkgs, settings, ... }: {
-  programs.jujutsu = {
-    enable = true;
-    settings.user = {
-      name = "Richard Bishop";
-      email = "richard@rubiquity.com";
-    };
-  };
+{ config, pkgs, ... }: {
+  programs.jujutsu.enable = true;
 
   programs.git = {
     enable = true;
@@ -19,11 +13,6 @@
     ];
 
     settings = {
-      user = {
-        name = "Richard Bishop";
-        email = settings.email;
-      };
-
       apply = { whitespace = "fix"; };
       branch = { sort = "-committerdate"; };
       color = { diff = "auto"; branch = "auto"; status = "auto"; };
