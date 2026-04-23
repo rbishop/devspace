@@ -23,10 +23,6 @@
     ruby-lsp
     #zls 2026-02-08 broken
 
-    # Terminals
-    alacritty
-    ghostty
-
     # Misc
     ctags
     delta
