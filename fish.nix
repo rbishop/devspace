@@ -4,7 +4,6 @@
     plugins = [
       { name = "grc"; src = pkgs.fishPlugins.grc; }
       { name = "done"; src = pkgs.fishPlugins.done; }
-      { name = "fzf-fish"; src = pkgs.fishPlugins.fzf-fish; }
       { name = "hydro"; src = pkgs.fishPlugins.hydro; }
       { name = "forgit"; src = pkgs.fishPlugins.forgit; }
     ];
