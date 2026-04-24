@@ -1,6 +1,4 @@
-require "nvim-treesitter.config".setup {
-  -- Managed with nixos
-  -- ensure_installed = "all",
+require('nvim-treesitter').setup {
   highlight = {
     enable = true
   },
