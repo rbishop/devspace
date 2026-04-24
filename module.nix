@@ -30,7 +30,6 @@
     gnumake
     iperf3
     unzip
-    watchman
     wget
   ];
 
